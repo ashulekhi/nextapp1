@@ -1,7 +1,7 @@
 import Cake from "./Cake"
 import axios from "axios"
 
-export default function Home(props){
+export default function Home1(props){
     return(
         <div className="row">
         {props.data?.map((each,index)=>{
